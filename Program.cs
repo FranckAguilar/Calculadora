@@ -10,5 +10,14 @@ string opcion = Console.ReadLine();
 double resultado = 0;
 
 // Escribir codigo aqui
+switch (opcion)
+{
+    case "+":
+        resultado = num1 + num2;
+        break;
+    default:
+        Console.WriteLine("Error");
+        return;
+}
 
 Console.WriteLine("Resultado: " + resultado);
