@@ -20,6 +20,7 @@ switch (opcion)
         break;
     case "*":
         resultado = num1 * num2;
+        break;
     default:
         Console.WriteLine("Error");
         return;
