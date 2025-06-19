@@ -12,13 +12,13 @@ double resultado = 0;
 // Escribir codigo aqui
 switch (opcion)
 {
-    case "+":
+    case "+": //operacion suma
         resultado = num1 + num2;
         break;
-    case "-":
+    case "-": //operacion resta
         resultado = num1 - num2;
         break;
-    case "*":
+    case "*": //operacion multiplicacion
         resultado = num1 * num2;
         break;
     default:
