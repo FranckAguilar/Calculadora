@@ -21,6 +21,17 @@ switch (opcion)
     case "*": //operacion multiplicacion
         resultado = num1 * num2;
         break;
+    case "/":
+    if (num2 != 0)
+    {
+        resultado = num1 / num2;
+    }
+    else
+    {
+        Console.WriteLine("Error");
+        return;
+    }
+    break;
     default:
         Console.WriteLine("Error");
         return;
