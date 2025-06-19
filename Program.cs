@@ -36,5 +36,5 @@ switch (opcion)
         Console.WriteLine("Error");
         return;
 }
-
+//Resultado de la operacion
 Console.WriteLine("Resultado: " + resultado);
